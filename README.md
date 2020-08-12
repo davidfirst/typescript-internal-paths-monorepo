@@ -1,7 +1,8 @@
 To reproduce:
 
-1. symlink the comp1 into the node-modules of comp2
-2. run `tsc` on comp1 then, `tsc` on comp2. The error you'll get is:
+1. `npm i && cd comp2 && npm i
+2. `npm run build`
+You'll get the following error
 ```
 comp2.ts:5:14 - error TS2345: Argument of type 'import("/Users/davidfirst/temp/projects/ts-dist-bug/comp1/dist/comp1").Comp1' is not assignable to parameter of type 'import("/Users/davidfirst/temp/projects/ts-dist-bug/comp1/comp1").Comp1'.
   Types have separate declarations of a private property '_foo'.

@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./comp1" },
+    { "path": "./comp2" },
+  ]
+}

@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "comp1": "file:../comp1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
