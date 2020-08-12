@@ -1,0 +1,23 @@
+{
+  "name": "typescript-internal-paths-monorepo",
+  "version": "1.0.0",
+  "description": "To reproduce:",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfirst/typescript-internal-paths-monorepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidfirst/typescript-internal-paths-monorepo/issues"
+  },
+  "homepage": "https://github.com/davidfirst/typescript-internal-paths-monorepo#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
