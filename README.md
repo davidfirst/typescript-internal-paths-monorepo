@@ -1,6 +1,6 @@
 To reproduce:
 
-1. `npm i && cd comp2 && npm i
+1. `npm i && cd comp2 && npm i`
 2. `npm run build`
 You'll get the following error
 ```
